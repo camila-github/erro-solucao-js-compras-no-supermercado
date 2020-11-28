@@ -45,7 +45,7 @@ for (var i = 0; i < totalItems; i++) {
     console.log(semItensRepetidos.sort().join(" "));
 }
 
-//SOLUÇÃO 2 - Resumido
+//SOLUCAO 2 - Resumido
 /*leitura da primeira linha, para saber quantidade de linhas que serão lidas na estrutura de repetição while()*/
 let totalItems = gets();
 //o while() irá subtrair um numero a cada loop ate zerar, quando zerar o loop será interrompido
