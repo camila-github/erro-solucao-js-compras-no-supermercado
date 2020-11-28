@@ -29,7 +29,7 @@ laranja pera laranja pera pera |
 #### Javascript
 
 ```javascript
-//SOLUÇÃO 1
+//SOLUCAO 1
 /*leitura da primeira linha, para saber a quantidade de listas que serão lidas na estrutura de repetição for()*/
 let totalItems = gets();
 for (var i = 0; i < totalItems; i++) {
