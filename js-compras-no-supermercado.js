@@ -1,4 +1,12 @@
 //SOLUCAO 1
+let quantidadeItems = gets();
+while ((quantidadeItems--)) {
+    let semItensRepetidos = gets().split(" ").filter((elemAtual, indexAtual, array) => indexAtual === array.indexOf(elemAtual));
+    console.log(semItensRepetidos.sort().join(" "));
+}
+
+
+//SOLUCAO 2
 let totalItems = gets();
 for (var i = 0; i < totalItems; i++) {
     let itensLinha = gets().split(" ");
@@ -8,9 +16,5 @@ for (var i = 0; i < totalItems; i++) {
     console.log(semItensRepetidos.sort().join(" "));
 }
 
-//SOLUCAO 2 - Resumido
-let totalItems = gets();
-while ((totalItems--)) {
-    let semItensRepetidos = gets().split(" ").filter((elem, index, self) => index === self.indexOf(elem));
-    console.log(semItensRepetidos.sort().join(" "));
-}
+
+
